@@ -20,10 +20,10 @@ With dnspython, you can perform various DNS-related tasks, such as querying for 
    ```
    git clone https://github.com/BeeChains/dnsrec.git
    ```
-3. edit the domains to retreive dns records for in the code that looks like this;
+3. edit the domain names that your want to retreive records for in the dnsrec.py code like this;
    ```
    # Example usage of the function
-   domain_names = ["handshake", "openai"]
+   domain_names = ["handshake", "openai.com"]
    ```
 4. Run the python script
    ```
