@@ -6,12 +6,13 @@ This script defines a function get_dns_records that takes a domain name as input
 
 Please note that you may encounter issues with rate limiting or blocking when making too many DNS requests in a short amount of time. If this happens, consider adding a delay between requests or using a different DNS resolver by specifying the resolver parameter in the dns.resolver.resolve() function.
 
-## This script uses dnspython. 
+## This script uses 'dnspython'
 'dnspython' is a powerful and widely-used DNS toolkit for Python. It is a library that provides a complete implementation of the DNS (Domain Name System) protocol. The library allows developers to perform DNS queries, zone transfers, dynamic updates, and DNSSEC validation. It is compatible with both Python 2 and Python 3.
 
 With dnspython, you can perform various DNS-related tasks, such as querying for different types of DNS records (A, AAAA, MX, NS, CNAME, etc.), reverse DNS lookups (finding domain names for IP addresses), DNS zone transfers, and more.
 
 # Installation
+## Install Python https://www.python.org/downloads/
 1. To install dnspython;
    ```
    pip install dnspython
